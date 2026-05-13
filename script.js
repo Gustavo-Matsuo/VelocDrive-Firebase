@@ -21,9 +21,9 @@ const db = getFirestore(app);
 // 2. LOGICA DA IA E FILTROS
 // ==========================================
 const carData = [
-    { id: 1, nome: "BMW M4 Competition", categoria: "esportivo" },
-    { id: 2, nome: "Porsche 911 Carrera", categoria: "esportivo" },
-    { id: 3, nome: "Ferrari 488 Pista", categoria: "luxo" }
+    { id: 1, nome: "BMW 320i F30 (2019)", categoria: "Luxo" },
+    { id: 2, nome: "Porsche Panamera Turbo (2017)", categoria: "Luxo" },
+    { id: 3, nome: "Ferrari LaFerrari (2014)", categoria: "Esportivo" }
 ];
 
 const btnAI = document.querySelector('.btn-ai');
